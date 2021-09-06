@@ -1,7 +1,9 @@
 module.exports = {
   ci: {
     collect: {
-      url: ['https://cip.stage.cowain.dev/'],
+      url: [
+        'https://cip.stage.cowain.dev/'
+      ],
       startServerCommand: 'rails server -e production',
     },
     assert: {
